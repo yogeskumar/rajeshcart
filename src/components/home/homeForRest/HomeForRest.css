@@ -1,0 +1,17 @@
+.child2 {
+  position: relative;
+  width: 50%;
+}
+.child1 {
+  position: relative;
+}
+.child1-child {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+.child2-child {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}

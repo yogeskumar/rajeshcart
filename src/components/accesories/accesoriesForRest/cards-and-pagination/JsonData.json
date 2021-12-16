@@ -1,0 +1,163 @@
+[
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Air",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple iPhone 11.png",
+        "name": "Apple iPhone 11",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/in-resources-8fda3511-a61f-4c26-a4a0-f2bd37049878-images-productimages-29679821-500x500.png",
+        "name": "Apple Ipad",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple Ipad.png",
+        "name": "Apple Watch 21-1",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/MY812_VW_34FR+watch-44-alum-spacegray-nc-6s_VW_34FR_WF_CO_GEO_MY.png",
+        "name": "Apple iPod 2A",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/ipod-touch-select-blue-2019_GEO_US_FMT_WHH.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/52a2df80-98ec-4e1b-9cfc-71a68d7575b3_1.4fbf81e4bfa56bc8feffa82b5b15ca83.png",
+        "name": "Apple Iphone Charger",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/71fwbMm1NBL._AC_SL1500_.png",
+        "name": "Iphone Watch",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/415ELavtbuL._SL1000_.png",
+        "name": "MacBook Stand",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/airpods-max-hero-select-202011_FMT_WHH.png",
+        "name": "AirPods-Max",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple Smartwatch Magic.png",
+        "name": "Apple Smart Watch",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/apple_airpods.png",
+        "name": "AirPods",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/Apple_homepod-mini-white.png",
+        "name": "Apple HomePod Mini White",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/apple_iPod_2A.png",
+        "name": "iPod 2A",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/design-hero_2x.png",
+        "name": "Design Hero",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/ipod-touch-select-blue-2019_GEO_US_FMT_WHH.png",
+        "name": "iPod Touch Select",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/MQHX2.png",
+        "name": "iPod Pen",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Products/New Apple Mac Mini.png",
+        "name": "Mini Mac",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/miscellaneous/40-alum-gold-sport-pinksand-6s-nc.jpg",
+        "name": "Aluminium Gold Watch",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/miscellaneous/132396-v8-apple-iphone-xi-mobile-phone-large-1.jpg",
+        "name": "iPhone 8",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/miscellaneous/beats_headphones_story_1504589454803.webp",
+        "name": "Beats HeadPhone",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    }
+]

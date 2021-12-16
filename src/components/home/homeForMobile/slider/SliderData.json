@@ -1,0 +1,30 @@
+[
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Web/beats_solo_2.svg",
+        "name": "Beats Solo 2 On Ear Headphones - Black",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Web/H-squared.svg",
+        "name": "H-Squared tvTray",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    }, 
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Web/Netatmo_rain.svg",
+        "name": "Netatmo Rain Gauge",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image": "./../../../../E-commerce Project(PrepBytes)/Web/beats_solo_2.svg",
+        "name": "Beats Solo 2 On Ear Headphones - Black",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    }
+]

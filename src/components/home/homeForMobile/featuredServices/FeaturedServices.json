@@ -1,0 +1,17 @@
+[
+    {
+        "image":"./../../../../E-commerce Project(PrepBytes)/Web/shipping.svg",
+        "name":"FREE SHIPPING",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    },
+    {
+        "image":"./../../../../E-commerce Project(PrepBytes)/Web/refund.svg",
+        "name":"100% REFUND",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    },
+    {
+        "image":"./../../../../E-commerce Project(PrepBytes)/Web/support.svg",
+        "name":"SUPPORT 24/7",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    }
+]

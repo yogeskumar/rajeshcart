@@ -1,0 +1,19 @@
+.accesories-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 250px;
+}
+.category-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 250px;
+}
+.forMargin {
+  color: rgba(255, 255, 255, 0);
+  height: 5px;
+  margin: 0;
+}
