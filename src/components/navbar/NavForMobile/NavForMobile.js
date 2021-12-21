@@ -1,17 +1,61 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import WindowsSize from '../../../WindowsSize';
-import iShopIcon from './../../../E-commerce Project(PrepBytes)/Web/iSHOP Logo.svg';
-import MenuIcon from './../../../E-commerce Project(PrepBytes)/Web/menu-svgrepo-com.svg';
+import { Link } from 'react-router-dom';
+// import StoreDropdown from './StoreDropdown';
+import { PermIdentityOutlined, AddShoppingCartOutlined, Search, Menu} from "@material-ui/icons";
+import styled from "styled-components";
 
-import Select from 'react-select';
-import ProfileIcon from './../../../E-commerce Project(PrepBytes)/Web/profile_icon.svg';
-import BagIcon from './../../../E-commerce Project(PrepBytes)/Web/bag_icon.svg';
-import DollorSign from './../../../E-commerce Project(PrepBytes)/Web/dollar-sign-svgrepo-com.svg';
-import SearchIcon from './../../../E-commerce Project(PrepBytes)/Web/search-svgrepo-com.svg';
-import CrossIcon from './../../../E-commerce Project(PrepBytes)/Web/cross-svgrepo-com.svg';
+const Container = styled.div`
+width: 100%;
+background-color: black;
+padding: 2vh 5vw;
+opacity: 0.3;
+/* background: transparent; */
+`;
 
+const CrossButton = styled.button`
+border: 0;
+background: transparent;
+color: white;
+font-size: 30px;
+font-weight: 900;
+margin: 15px 0;
+`;
 
+const Select = styled.select`
+border: 0;
+background-color: transparent;
+/* width: 40px; */
+margin-right: 10px;
+color: white;
+width: 70px;
+`;
+const Option = styled.option`
+border:0;
+background-color: #000;
+` ;
+const SearchBox = styled.div`
+width: 100%;
+border: 1px solid black;
+border-radius: 50px;
+height: 50px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+background-color: white;
+padding-left: 20px;
+`;
+const SearchInput = styled.input`
+/* padding-left: 20px; */
+margin: auto;
+height: 50px;
+background: transparent;
+border: 0;
+outline: none;
+width: 85%;
+color: black;
+`;
 
 function NavForMobile() {
 
@@ -29,72 +73,65 @@ function CollapsedMenu() {
 
     return (
         <div className="d-flex flex-row justify-content-between mt-0 mb-0" style={{ "width": "98%", "margin": "auto", "minWidth": "fit-content", "zIndex":"1", "backgroundColor":"white" }}>
-            <div><img src={iShopIcon} alt="" /></div>
-            <button onClick={clickToExpand} style={{"outline":"none", "border":"none", "background":"none" }}><div><img src={MenuIcon} alt="" width="50px" /></div></button>
+            <h2 style={{color:"#FF1E56", fontSize:"45px"}}>iSHOP</h2>
+            <button onClick={clickToExpand} style={{"outline":"none", "border":"none", "background":"none" }}><Menu style={{fontSize:"45px"}}/></button>
         </div>
     )
     }
     
     function ExpandedMenu() {
-
-    const langOptions = [
-                    { value: 'EN', label: 'EN' },
-                    { value: 'HINDI', label: 'HINDI' },
-                    { value: 'SANSKRIT', label: 'SANSKRIT' }
-    ]
-    
-    const currencyOptions = [
-                    { value: 'USD', label: 'USD' },
-                    { value: 'INR', label: 'INR' },
-                    { value: 'AUD', label: 'AUD' }
-                    ]
+                    
     return (
-        <div className="d-flex flex-column justify-content-between mt-0 mb-0" style={{ "width": "100%", "margin": "auto", position:"absolute", top:"0", left:"0", "zIndex": "10", "background": "rgba(255, 255, 255)" }}>
-            <button onClick={clickToCollapse} style={{ "outline": "none", "border": "none", "background":"none", "width":"fit-content" }}><div className="text-start" style={{ "margin": "0", "zIndex": "2", "padding": "10px", "color":"white" }}><img src={CrossIcon} alt="" width="30px" /></div></button>
-                    <div style={{"margin":"15px"}} className="d-flex flex-row justify-content-between mt-0 mb-0" >
-                        <div style={{"margin":"auto"}}>
-                    <span style={{ "marginRight": "5px" }}><img src={BagIcon} alt="" /></span>
-                    <span style={{ "marginRight": "5px" }}>2 Items</span>
-                            <span style={{ "marginRight": "5px" }}>
-                            <span><img src={DollorSign} alt="" width="15px" /></span>999
-                        </span>
-                </div>
-                    <div style={{"margin":"auto"}}>
-                        <span style={{ "marginRight": "5px" }}><img src={ProfileIcon} alt="" /></span><span style={{ "margin": "auto" }}> My Profile</span>
-                </div>
-                <div className="d-flex flex-row justify-content-between w-80 mt-0 mb-0" style={{"margin":"auto"}}>
-			        <div style={{ display: "flex", gap: "1rem" }}>
-                        <span>
-                            <Select options={langOptions} defaultValue={{ label: "EN", value: "EN" }} />
-                        </span>
-                        <span>
-                            <Select options={currencyOptions} defaultValue={{ label: "INR", value: "INR" }} />
-                        </span>
-			        </div>
-                </div>
-                    </div>
-            <hr style={{ "margin": "15px", "height":"2px" }} className="d-flex flex-row justify-content-between mt-2 mb-0" />
-            <div style={{ "margin": "15px", "borderRadius": "50px", "border": "1px solid", "height": "50px" }} className="d-flex flex-row justify-content-between mt-4 mb-0 bg-white" ><img src={SearchIcon} alt="" width="30px" style={{ "margin": "auto 0 auto 20px" }} /></div>
+        <Container>
             
-            <div style={{"margin":"auto"}} className="mt-2">
-                Home
+            <CrossButton onClick={clickToCollapse}>X</CrossButton>
+            
+            <div className='d-flex flex-row justify-content-between flex-nowrap w-100 mb-0 '>
+                <span style={{"marginRight":"30px"}} className='text-nowrap'>
+                        <span >
+                            <span style={{"marginRight":"5px"}}><AddShoppingCartOutlined style={{color:"white"}} /></span><span className='text-white ' style={{ "marginRight": "5px" }}>2 Items</span>
+                            <span style={{ "marginRight": "5px" }}>
+                            <span style={{color:"black", opacity:"0.5"}} className='text-white ' >$999</span>
+                        </span>
+                        </span>
+                </span>
+                
+                <span style={{"marginRight":"30px"}} className='text-white text-nowrap ' >
+                            <span style={{ "marginRight": "5px" }}><PermIdentityOutlined /></span>
+                            <span style={{ "margin": "auto" }}> My Profile</span>
+                </span>
+                
+                <div className="d-flex flex-row justify-content-between w-80 mt-0 mb-0 my-auto align-items-center text-nowrap ">
+                        <span><Select>
+                            <Option selected>En</Option>
+                            <Option>Hindi</Option>
+                            <Option>Sanskrit</Option>
+                        </Select></span>
+                        <span><Select>
+                            <Option selected>$</Option>
+                            <Option>Rupee</Option>
+                            <Option>Euro</Option>
+                        </Select></span>
+                </div>
             </div>
-            <div style={{"margin":"auto"}} className="mt-2">
-                STORE
+            <hr style={{ backgroundColor: "white", height: "2px", width: "100%", marginTop: "2px", opacity:"1" }} />
+            <SearchBox>
+                <Search/>
+                <SearchInput placeholder='search' />
+            </SearchBox>
+            
+            <div className='d-flex flex-column justify-content-center flex-nowrap mx-auto align-items-center text-center text-white' style={{ "width": "fit-content", margin:"15px auto"}}>
+                
+                <Link className='text-white' style={{ textDecoration: 'none' }} to="/" onClick={clickToCollapse}>Home</Link>
+                
+                <Link className='text-white' style={{ textDecoration: 'none' }} to='/' onClick={clickToCollapse}>STORE</Link>
+                
+                <Link className='text-white' style={{ textDecoration: 'none'}} to="/" onClick={clickToCollapse}>IPHONE</Link>
+                <Link className='text-white' style={{ textDecoration: 'none'}} to="/" onClick={clickToCollapse}>IPAD</Link>
+                <Link className='text-white' style={{ textDecoration: 'none'}} to="/" onClick={clickToCollapse}>MACBOOK</Link>
+                <Link className='text-white' style={{ textDecoration: 'none'}} to="/accesories" onClick={clickToCollapse}>ACCESORIES</Link>
             </div>
-            <div style={{"margin":"auto"}} className="mt-2">
-                IPHONE
-            </div>
-            <div style={{"margin":"auto"}} className="mt-2">
-                IPAD
-            </div>
-            <div style={{"margin":"auto"}} className="mt-2">
-                MACBOOK
-            </div>
-            <div style={{"margin":"auto"}} className="mt-2 mb-2">
-                ACCESORIES
-            </div>
-        </div>
+        </Container>
     )
 }
 

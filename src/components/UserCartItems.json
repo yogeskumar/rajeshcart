@@ -1,0 +1,60 @@
+[
+    {
+        "image": "./../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499,
+        "description":"Philips Hue 7W BR30 Connected Downlight Lamp"
+    },
+    {
+        "image": "./../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499,
+        "description":"Apple Macbook Pro"
+    },
+    {
+        "image": "./../../E-commerce Project(PrepBytes)/Products/Apple Macbook Air.png",
+        "name": "Apple Macbook Air",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image":  "./../../E-commerce Project(PrepBytes)/Products/Apple iPhone 11.png",
+        "name": "Apple iPhone 11",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image":  "./../../E-commerce Project(PrepBytes)/Products/in-resources-8fda3511-a61f-4c26-a4a0-f2bd37049878-images-productimages-29679821-500x500.png",
+        "name": "Apple Ipad",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image":  "./../../E-commerce Project(PrepBytes)/Products/Apple Ipad.png",
+        "name": "Apple Watch 21-1",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image":  "./../../E-commerce Project(PrepBytes)/Products/MY812_VW_34FR+watch-44-alum-spacegray-nc-6s_VW_34FR_WF_CO_GEO_MY.png",
+        "name": "Apple iPod 2A",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    },
+    {
+        "image":  "./../../E-commerce Project(PrepBytes)/Products/ipod-touch-select-blue-2019_GEO_US_FMT_WHH.png",
+        "name": "Apple Macbook Pro",
+        "rating": 4,
+        "originalPrice": 699,
+        "discountedPrice": 499
+    }
+]

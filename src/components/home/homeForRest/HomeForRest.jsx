@@ -12,6 +12,7 @@ import FeaturedServicesData from './featuredServices/FeaturedServices.json';
 import FeaturedServices from './featuredServices/FeaturedServices.jsx';
 import sliderdata from './slider/SliderData.json';
 import SliderCard from './slider/SliderCard.jsx';
+import Slider from './slider/Slider';
 
 const jsonData = JsonData;
 const featuredservicesdata = FeaturedServicesData;
@@ -57,7 +58,8 @@ function HomeForRest() {
             
             
             <h2 className='text-center fw-bolder fs-4'>FEATURED PRODUCTS</h2>
-            <div className='text-center text-dark' style={{"margin":"30px auto", "width":"60%", "minHeight":"150px", "minWidth":"600px"}}>
+            <Slider/>
+            {/* <div className='text-center text-dark' style={{"margin":"30px auto", "width":"60%", "minHeight":"150px", "minWidth":"600px"}}>
                 <Carousel Carousel
                 show={3}
                 infiniteLoop>
@@ -65,7 +67,7 @@ function HomeForRest() {
                         return <SliderCard info={data}/>
                     })}
                 </Carousel>
-            </div>
+            </div> */}
         </div>
     )
 }

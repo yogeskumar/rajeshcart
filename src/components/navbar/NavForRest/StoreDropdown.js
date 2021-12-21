@@ -7,7 +7,7 @@ function StoreDropdown() {
     return (
         <div style={{"zIndex":"5", "width":"50vw"}}>
             <div className='forMargin' style={{"width":"100%"}}></div>
-            <div className="d-flex flex-row flex-nowrap bg-white" style={{"maxHeight":"250px", "minWidth":"700px"}}>
+            <div className="d-flex flex-row flex-nowrap bg-white" style={{"maxHeight":"250px", "minWidth":"620px"}}>
             
             <div className="accesories text-start">
                     <p style={{"color": "#7a7a7a", "margin":"0 10px" }}>Accesories</p>

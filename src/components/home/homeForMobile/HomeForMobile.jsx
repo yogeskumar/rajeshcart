@@ -12,6 +12,13 @@ import FeaturedServices from './featuredServices/FeaturedServices.jsx';
 import sliderdata from './slider/SliderData.json';
 import SliderCard from './slider/SliderCard.jsx';
 import Select from 'react-select';
+import styled from "styled-components";
+
+const HeadphoneImage = styled.img`
+background-size: cover;
+max-width: 400px;
+height: 100%;
+`;
 
 const jsonData = JsonData;
 const featuredservicesdata = FeaturedServicesData;
@@ -27,7 +34,7 @@ const menuOptions = [
 function HomeForMobile() {
     return (
         <div className='d-flex flex-column flex-nowrap'>
-            <div className='bg-dark text-center' style={{"height":"50vh", "width":"100%", "minHeight":"360px", "position":"relative"}}><img src={firstImage} style={{"margin":"auto", "height":"70%", "minHeight":"180px", "position":"absolute", "bottom":"0"}} alt="" /></div>
+            <div className='bg-dark text-center' style={{"height":"50vh", "width":"100%", "minHeight":"360px", "position":"relative"}}><HeadphoneImage src={firstImage} alt="" /></div>
             <h4 className="text-center" style={{ "margin": "10px 0" }}>BEST SELLER</h4>
                 <span style={{"margin":"auto", "width":"95%"}}>
                             <Select options={menuOptions} style={{"margin":"auto"}} defaultValue={{ value: 'Mac', label: 'Mac' }} />
